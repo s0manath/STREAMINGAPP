@@ -9,5 +9,6 @@ import lombok.*;
 @Builder
 public class CustomMessage {
     private String message;
-    private final boolean success=false;
+
+    private boolean success = false;
 }
